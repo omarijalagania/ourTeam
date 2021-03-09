@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #7f7f7f;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right top, #1fcdff, #6eb4ff, #bf90f2, #f167b2, #f5535e);
+}
+
+
+.container {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.avatar img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h1 {
+        font-size: 28px;
+        color: rgb(47, 47, 47);
+        line-height: 0.857;
+        text-align: center;
+        margin-bottom: 20px;
+
+}
+
+.main-small-text {
+        font-size: 16px;
+        color: rgb(47, 47, 47);
+        line-height: 1.5;
+        text-align: center;
+        margin-bottom: 15px;
+}
+
+.team-contener {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-member {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 355px;
+}
+
+
+.name {
+        font-size: 20px;
+        color: rgb(47, 47, 47);
+        line-height: 1.2;
+        text-align: center;
+        margin-bottom: 10px;
+}
+
+
+.position, .text {
+        font-size: 13px;
+        color: rgb(169, 169, 169);
+        line-height: 1.846;
+        text-align: center;
+}
+
+.social-ul {
+    list-style: none;
+    display: flex;
+}
+
+.social-ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    border: 0;
+    font-size: 21px;
+    padding: 10px 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:hover {
+    color: #1fcdff;
+}
+
+.social-ul li:hover {
+    color: #1fcdff;
+}
