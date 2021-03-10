@@ -58,7 +58,7 @@ const OurTeam = ({data}) => {
                     <button onClick={rightArrowClick} className="btn right-arrow"><ion-icon name="chevron-forward-outline"></ion-icon></button>
                 </div>
             </section>
-        </div>
+        </div>z
             </div>
         );
 }
